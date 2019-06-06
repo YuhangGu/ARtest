@@ -77,5 +77,5 @@ function loadData(callback){
         font = fontObj;
     } );
 
-    setTimeout(callback, 1000);
+    setTimeout(callback, 4000);
 }
