@@ -28,7 +28,7 @@ function loadData(callback){
 
     //var DATA_PATH = "../data/mData-" + $('input[name="municipality"]:checked').val() + ".json";
 
-    var DATA_PATH = "../data/mData-Utrecht.json";
+    var DATA_PATH = "./data/mData-Utrecht.json";
 
 
     //console.log(DATA_PATH)
