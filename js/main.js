@@ -6,9 +6,7 @@ var markerRoot1, markerRoot2;
 
 var mesh1;
 
-var dataFlows;
-var dataChord;
-var dataChordT;
+
 var dataChordC;
 
 

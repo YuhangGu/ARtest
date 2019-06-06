@@ -2,7 +2,9 @@
  * Created by Aero on 08/03/2017.
  */
 
-
+var dataFlows;
+var dataChord;
+var dataChordT;
 
 
 var flowsSet = [];
@@ -29,14 +31,12 @@ function loadData(callback){
     var DATA_PATH = "../data/mData-Utrecht.json";
 
 
-    console.log(DATA_PATH)
-
-
+    //console.log(DATA_PATH)
 
     d3.json( DATA_PATH)
         .then(function(data){
 
-            console.log(data)
+            //console.log(data)
 
             dataFlows = data;
 
@@ -77,5 +77,5 @@ function loadData(callback){
         font = fontObj;
     } );
 
-    setTimeout(callback, 10000);
+    setTimeout(callback, 1000);
 }

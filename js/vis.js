@@ -461,10 +461,6 @@ function getBaseMap() {
 
         });
 
-
-
-
-
         VIS.texture.needsUpdate = true;
     }
 
@@ -478,8 +474,6 @@ function getFlows() {
 
         var choosen_index = dataFlows.city.indexOf("Utrecht")
 
-        console.log(choosen_index,flow.source.index  )
-
         if (flow.source.index === choosen_index || flow.target.index === choosen_index) {
             var flow = getMeshFromFlow(flow, choosen_index);
             if (flow) {
@@ -491,8 +485,6 @@ function getFlows() {
 
     return flowsGroup;
 }
-
-
 
 
 function updateFlowMap(selectedCity) {
